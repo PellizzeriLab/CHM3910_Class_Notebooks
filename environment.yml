@@ -1,0 +1,53 @@
+name: rmg_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::mpmath
+  - conda-forge::pytest-check
+  - conda-forge::ffmpeg[version='>=7']
+  - conda-forge::pandas
+  - rmg::symmetry
+  - conda-forge::pytest-cov
+  - conda-forge::jinja2
+  - conda-forge::pytest
+  - conda-forge::numdifftools
+  - conda-forge::suitesparse
+  - conda-forge::coolprop
+  - conda-forge::coverage
+  - conda-forge::ncurses
+  - conda-forge::networkx
+  - conda-forge::pyyaml
+  - conda-forge::cython[version='>=0.25.2,<3.1']
+  - rmg::pydqed[version='>=1.0.3']
+  - conda-forge::cantera=2.6
+  - conda-forge::cairo
+  - conda-forge::h5py
+  - conda-forge::cairocffi
+  - conda-forge::xlrd
+  - blas[build=openblas]
+  - conda-forge::jupyter
+  - conda-forge::xlwt
+  - conda-forge::pyopenssl[version='>20']
+  - conda-forge::pymongo
+  - graphviz
+  - conda-forge::openbabel[version='>=3']
+  - conda-forge::pyparsing
+  - conda-forge::psutil
+  - conda-forge::gprof2dot
+  - conda-forge::cclib[version='>=1.6.3,<1.9']
+  - conda-forge::pyutilib
+  - conda-forge::mopac
+  - conda-forge::ringdecomposerlib-python
+  - conda-forge::quantities[version='!=0.16.0,!=0.16.1']
+  - conda-forge::numpy[version='>=1.10.0,<2']
+  - conda-forge::matplotlib[version='>=1.5']
+  - conda-forge::setuptools[version='<80']
+  - conda-forge::scipy[version='>=1.9']
+  - conda-forge::python[version='>=3.9']
+  - conda-forge::rdkit[version='>=2022.09.1']
+  - conda-forge::markupsafe
+  - conda-forge::pydot
+  - conda-forge::scikit-learn
+  - rmg::pydas[version='>=1.0.3']
+prefix: /home/spellizzeri/.conda/envs/rmg_env
