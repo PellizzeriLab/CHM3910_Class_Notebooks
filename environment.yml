@@ -7,6 +7,7 @@ dependencies:
   - conda-forge::pytest-check
   - conda-forge::ffmpeg[version='>=7']
   - conda-forge::pandas
+  - rmg::rmg==3.3.0
   - rmg::symmetry
   - conda-forge::pytest-cov
   - conda-forge::jinja2
